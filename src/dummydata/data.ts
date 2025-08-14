@@ -56,7 +56,7 @@ export const data = [
       required_skills: ["Social Media Marketing", "English", "Copywriting"],
     },
     company: "ABC Media",
-    image: "../../public/images/image1.png",
+    image: "/image1.png",
   },
   {
     id: "2",
@@ -91,7 +91,7 @@ export const data = [
       required_skills: ["HTML", "CSS", "JavaScript", "PHP"],
     },
     company: "Tech Innovators",
-    image: "../../public/images/image2.png",
+    image: "/image2.png",
   },
   {
     id: "3",
@@ -132,7 +132,7 @@ export const data = [
       ],
     },
     company: "Creative Designs Co.",
-    image: "../../public/images/image3.png",
+    image: "/image3.png",
   },
   {
     id: "4",
@@ -168,7 +168,7 @@ export const data = [
       required_skills: ["SQL", "Python", "Excel", "Statistical Analysis"],
     },
     company: "Data Insights Inc.",
-    image: "../../public/images/image4.png",
+    image: "/image4.png",
   },
   {
     id: "5",
@@ -210,6 +210,6 @@ export const data = [
       ],
     },
     company: "Customer Care Ltd.",
-    image: "../../public/images/image1.png",
+    image: "/image1.png",
   },
 ];
