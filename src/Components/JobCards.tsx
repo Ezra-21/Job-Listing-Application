@@ -12,12 +12,13 @@ const JobCard = ({ job }: props) => {
     <Link href={`/Jobs/${job.id}`}>
       <div className=" flex bg-white border border-gray-300  w-270 h-60 rounded-[30px] p-0 ml-45 mb-10  text-black ">
         <Image
-          src="/image1.png"
-          alt="logo"
-          width={20}
-          height={20}
+          src={job.image} 
+          alt={`${job.company} logo`}
+          width={80}
+          height={80}
           className="w-20 h-20 ml-10 mt-5"
         />
+
         <div className="mt-5">
           <h1 className="  text-black text-xl m-0 pt0 pl-15 font-bold ">
             {" "}
